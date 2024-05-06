@@ -9,7 +9,14 @@
 <body>
     <h1>Curriculum Vitae</h1>
     
-    <img src="imagens/foto_Joenes.png" alt="Foto Joenes">
+    <picture>
+        <source media="(max-width: 550px)"
+        srcset="imagens/foto_Joenes.png" type="image/png">
+        <source media="(max-width: 850px)"
+        srcset="imagens/foto_Joenes-m.png" type="image/png">
+        <img src="imagens/foto_Joenes-g.png" alt="Foto Joenes">
+    </picture>
+    
     <p>Nome: <strong>Joenes de Menezes Ornelas</strong></p>
     <p>Data de Nascimento: 11 de maio de 1976</p>
     <p>Endereço: Rua Antônio Lima 195 Apto 1002<br>
